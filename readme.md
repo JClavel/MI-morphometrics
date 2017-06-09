@@ -8,8 +8,8 @@ Julien Clavel, Gildas Merceron, Gilles Escarguel
 
 This tutorial is the same as the one given in the Supplementary Material S2 in Clavel et al. (2014). We also provide a worked example on a simulated dataset.
 
-1) Simplified tutorial for the use of Multiple Imputation (MI) techniques used in Clavel et al. (2014)
-==
+## 1) Simplified tutorial for the use of Multiple Imputation (MI) techniques used in Clavel et al. (2014)
+
 
 The following R functions requires the "missMDA", "mice", "Amelia", "NORM", and "Hmisc" packages (See Material & Methods - Clavel et al.(2014)).
 
@@ -62,8 +62,8 @@ imp<-list()
 ```
 
 
-2) agglomerate.data & plot.MI functions
-==
+## 2) agglomerate.data & plot.MI functions
+
 
 Based on m (>1) datasets imputed using a multiple imputation technique, the two following R functions average the m imputed datasets and display the 95% confidence ellipses associated to each specimen. The function to draw confidence ellipses is based on the R function “ELLI” proposed by Claude (2008). The following R functions requires the "missMDA", "mice", "Amelia", "NORM", "Hmisc" and "shapes" packages (See Material & Methods).
 
@@ -87,8 +87,9 @@ plot.MI(IM, symmetric=TRUE, DIM=c(1,2), web=FALSE, ellipses=TRUE)
 
 The "plot.MI" function allows the procrustes superimposition of the m imputed datasets onto the principal components calculated from the average MI-dataset. Symmetric = whether or not the matrices must be scaled to have unit sum of square. DIM = the dimensions to display on the biplot; web = whether or not the m imputed points for each specimen are linked to their related average MI-dataset points; ellipses = whether or not the 95% confidence ellipses around each specimen is drawn.
 
-3) A worked example
-==
+
+## 3) A worked example
+
 
 
 
