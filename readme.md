@@ -1,21 +1,7 @@
----
-title: 'Missing Data Estimation in Morphometrics: How Much is Too Much?'
-author:
-- Julien Clavel
-- Gildas Merceron
-- Gilles Escarguel
-output:
-  html_document:
-    number_sections: yes
-    toc: yes
-    toc_depth: 2
-  fontsize: 8pt
-  pdf_document:
-    highlight: tango
-    number_sections: yes
-    toc: yes
-    toc_depth: 2
----
+# Missing Data Estimation in Morphometrics: How Much is Too Much?
+Julien Clavel, Gildas Merceron, Gilles Escarguel
+
+
 
 ***
 
